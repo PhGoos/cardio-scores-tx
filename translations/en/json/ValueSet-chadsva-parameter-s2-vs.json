@@ -1,0 +1,91 @@
+{
+  "id" : "ValueSet-chadsva-parameter-s2-vs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "CHADSVAParameterS2VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "CHADSVA Parameter S2 VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **S₂** (Schlaganfall, TIA, oder Thrombembolie: **S**troke) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I63",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "G45",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "H34",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I74",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "422504002",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "266257000",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "232035005",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "88032003",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "286959000",
+      "target" : null
+    }]
+  }]
+}

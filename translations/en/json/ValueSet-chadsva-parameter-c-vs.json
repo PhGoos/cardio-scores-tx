@@ -1,0 +1,49 @@
+{
+  "id" : "ValueSet-chadsva-parameter-c-vs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "CHADSVAParameterCVS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "CHADSVA Parameter C VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **C** (Herzinsuffizienz: **C**ongestive heart failure) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I50",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "48447003",
+      "target" : null
+    }]
+  }]
+}

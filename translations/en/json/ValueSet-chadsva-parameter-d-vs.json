@@ -1,0 +1,67 @@
+{
+  "id" : "ValueSet-chadsva-parameter-d-vs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "CHADSVAParameterDVS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "CHADSVA Parameter D VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **D** (Diabetes: **D**iabetes) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "E10",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "E11",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "E13",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "E14",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "73211009",
+      "target" : null
+    }]
+  }]
+}

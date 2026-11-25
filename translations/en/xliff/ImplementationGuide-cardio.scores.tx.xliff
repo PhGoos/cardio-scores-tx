@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ImplementationGuide-cardio.scores.tx" original="Resource ImplementationGuide-cardio.scores.tx" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.name">
+             <notes>
+               <note id="n1">ImplementationGuide.name</note>
+             </notes>
+        <source>CardioScoresTx</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.publisher">
+             <notes>
+               <note id="n1">ImplementationGuide.publisher</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>cardio-scores-tx-manifest</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CHADSVA Parameter C VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **C** (Herzinsuffizienz: **C**ongestive heart failure) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CHADSVA Parameter D VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **D** (Diabetes: **D**iabetes) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CHADSVA Parameter H VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **H** (Arterielle Hypertonie: **H**ypertension) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CHADSVA Parameter S2 VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **S₂** (Schlaganfall, TIA, oder Thrombembolie: **S**troke) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>CHADSVA Parameter V VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **V** (Vaskuläre Erkrankungen: **V**ascular Disease) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Component Supporting Resource Extension</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Referenziert eine Resource, die als Eingabe oder unterstützende Evidenz verwendet wurde, um den Wert einer Observation.component zu bestimmen.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Table of Contents</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.page.title">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.page.title</note>
+             </notes>
+        <source>Home</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

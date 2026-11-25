@@ -1,0 +1,115 @@
+{
+  "id" : "ImplementationGuide-cardio.scores.tx",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ImplementationGuide.name",
+      "context" : "ImplementationGuide.name",
+      "source" : "CardioScoresTx",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.publisher",
+      "context" : "ImplementationGuide.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "cardio-scores-tx-manifest",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CHADSVA Parameter C VS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **C** (Herzinsuffizienz: **C**ongestive heart failure) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CHADSVA Parameter D VS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **D** (Diabetes: **D**iabetes) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CHADSVA Parameter H VS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **H** (Arterielle Hypertonie: **H**ypertension) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CHADSVA Parameter S2 VS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **S₂** (Schlaganfall, TIA, oder Thrombembolie: **S**troke) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "CHADSVA Parameter V VS",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **V** (Vaskuläre Erkrankungen: **V**ascular Disease) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.name",
+      "context" : "ImplementationGuide.definition.resource.name",
+      "source" : "Component Supporting Resource Extension",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.resource.description",
+      "context" : "ImplementationGuide.definition.resource.description",
+      "source" : "Referenziert eine Resource, die als Eingabe oder unterstützende Evidenz verwendet wurde, um den Wert einer Observation.component zu bestimmen.",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Table of Contents",
+      "target" : null
+    },
+    {
+      "id" : "ImplementationGuide.definition.page.title",
+      "context" : "ImplementationGuide.definition.page.title",
+      "source" : "Home",
+      "target" : null
+    }]
+  }]
+}

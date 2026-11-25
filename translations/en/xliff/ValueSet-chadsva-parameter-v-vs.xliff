@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ValueSet-chadsva-parameter-v-vs" original="Resource ValueSet-chadsva-parameter-v-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>CHADSVAParameterVVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>CHADSVA Parameter V VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **V** (Vaskuläre Erkrankungen: **V**ascular Disease) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I21</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I22</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I24</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I25</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I70.2</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>53741008</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>22298006</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>1284863004</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-v-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>840580004</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

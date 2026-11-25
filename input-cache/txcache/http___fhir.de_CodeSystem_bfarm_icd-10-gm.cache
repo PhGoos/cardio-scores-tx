@@ -1,0 +1,2501 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I50"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Herzinsuffizienz",
+  "code" : "I50",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n11ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I50 (\"undefined\")]\"\n17ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I50\"\n18ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n19ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n20ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I50\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E10"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus, Typ 1",
+  "code" : "E10",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E10 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E10\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E10\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E11"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus, Typ 2",
+  "code" : "E11",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E11 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E11\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E11\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E13"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sonstiger näher bezeichneter Diabetes mellitus",
+  "code" : "E13",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E13 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E13\"\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n2ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E13\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E14"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Nicht näher bezeichneter Diabetes mellitus",
+  "code" : "E14",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E14 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E14\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E14\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I10"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Essentielle (primäre) Hypertonie",
+  "code" : "I10",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I10 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I10\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I10\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I15"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sekundäre Hypertonie",
+  "code" : "I15",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I15 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I15\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I15\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I63"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Hirninfarkt",
+  "code" : "I63",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I63\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "de", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I69.3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs-inc-1",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:058f7874-109b-4e11-8e8b-5840536a0fde",
+    "timestamp" : "2026-11-23T09:44:34.477Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "de"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I69.3",
+      "display" : "Folgen eines Hirninfarktes"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "G45"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Zerebrale transitorische Ischämie und verwandte Syndrome",
+  "code" : "G45",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#G45 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#G45\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"G45\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "H34"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Netzhautgefäßverschluss",
+  "code" : "H34",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#H34 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#H34\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"H34\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I74"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Arterielle Embolie und Thrombose",
+  "code" : "I74",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I74 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I74\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I74\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "de", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I63.6"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs-inc-12",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:450a9cf0-04ed-4314-9d0d-b59248fdef14",
+    "timestamp" : "2026-11-23T09:44:34.547Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "de"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I63.6",
+      "display" : "Hirninfarkt durch Thrombose der Hirnvenen, nichteitrig"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "en", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I69.3"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs-inc-1",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:f706175d-a8d5-4372-9c4a-580a41c7ca9e",
+    "timestamp" : "2026-11-23T09:44:34.554Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I69.3",
+      "display" : "Folgen eines Hirninfarktes"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "en", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I63.6"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs-inc-12",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:69bac31a-7f26-4912-8d5d-f690f60317be",
+    "timestamp" : "2026-11-23T09:44:34.561Z",
+    "total" : 1,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I63.6",
+      "display" : "Hirninfarkt durch Thrombose der Hirnvenen, nichteitrig"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I21"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Akuter Myokardinfarkt",
+  "code" : "I21",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I21 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I21\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I21\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I22"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Rezidivierender Myokardinfarkt",
+  "code" : "I22",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I22 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I22\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I22\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I24"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sonstige akute ischämische Herzkrankheit",
+  "code" : "I24",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I24 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I24\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I24\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I25"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Chronische ischämische Herzkrankheit",
+  "code" : "I25",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I25\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "de", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I70.0"
+      },
+      {
+        "code" : "I73.9"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs-inc-4",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:a4871adb-e57b-47a2-a66d-4475d65ac7ba",
+    "timestamp" : "2026-11-23T09:44:34.595Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "de"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I70.0",
+      "display" : "Atherosklerose der Aorta"
+    },
+    {
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I73.9",
+      "display" : "Periphere Gefäßkrankheit, nicht näher bezeichnet"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I70.2"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Atherosklerose der Extremitätenarterien",
+  "code" : "I70.2",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.2 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.2\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I70.2\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "de", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I25.3"
+      },
+      {
+        "code" : "I25.4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs-inc-10",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:4382fe9a-742b-4b2c-a11f-d6378ce3e267",
+    "timestamp" : "2026-11-23T09:44:34.627Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "de"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I25.3",
+      "display" : "Herz-(Wand-)Aneurysma"
+    },
+    {
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I25.4",
+      "display" : "Koronararterienaneurysma"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "en", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I70.0"
+      },
+      {
+        "code" : "I73.9"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs-inc-4",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:42093c90-f16a-45f3-9721-478b128d2531",
+    "timestamp" : "2026-11-23T09:44:34.634Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I70.0",
+      "display" : "Atherosklerose der Aorta"
+    },
+    {
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I73.9",
+      "display" : "Periphere Gefäßkrankheit, nicht näher bezeichnet"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "language": "en", "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "concept" : [{
+        "code" : "I25.3"
+      },
+      {
+        "code" : "I25.4"
+      }]
+    }]
+  }
+}}####
+e: {
+  "source" : localhost,
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "url" : "http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs-inc-10",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1115c916-fbf3-45cc-865c-d5feb894f5d1",
+    "timestamp" : "2026-11-23T09:44:34.642Z",
+    "total" : 2,
+    "offset" : 0,
+    "parameter" : [{
+      "name" : "displayLanguage",
+      "valueCode" : "en"
+    },
+    {
+      "name" : "excludeNested",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 1000
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    },
+    {
+      "name" : "system-version",
+      "valueUri" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+    }],
+    "contains" : [{
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I25.3",
+      "display" : "Herz-(Wand-)Aneurysma"
+    },
+    {
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+      "code" : "I25.4",
+      "display" : "Koronararterienaneurysma"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I50"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Herzinsuffizienz",
+  "code" : "I50",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I50 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I50\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I50\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E10"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus, Typ 1",
+  "code" : "E10",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E10 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E10\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E10\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E11"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus, Typ 2",
+  "code" : "E11",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E11 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E11\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E11\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E13"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sonstiger näher bezeichneter Diabetes mellitus",
+  "code" : "E13",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E13 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E13\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E13\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "E14"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Nicht näher bezeichneter Diabetes mellitus",
+  "code" : "E14",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#E14 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#E14\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"E14\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I10"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Essentielle (primäre) Hypertonie",
+  "code" : "I10",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I10 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I10\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I10\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I15"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sekundäre Hypertonie",
+  "code" : "I15",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I15 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I15\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I15\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I63"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Hirninfarkt",
+  "code" : "I63",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I63\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I69.3"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Folgen eines Hirninfarktes",
+  "code" : "I69.3",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I69.3 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I69.3\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I69.3\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "G45"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Zerebrale transitorische Ischämie und verwandte Syndrome",
+  "code" : "G45",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#G45 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#G45\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"G45\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "H34"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Netzhautgefäßverschluss",
+  "code" : "H34",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#H34 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#H34\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"H34\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I74"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Arterielle Embolie und Thrombose",
+  "code" : "I74",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I74 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I74\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I74\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I63.6"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-s2-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Hirninfarkt durch Thrombose der Hirnvenen, nichteitrig",
+  "code" : "I63.6",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63.6 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I63.6\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I63.6\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I21"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Akuter Myokardinfarkt",
+  "code" : "I21",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I21 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I21\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I21\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I22"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Rezidivierender Myokardinfarkt",
+  "code" : "I22",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I22 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I22\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I22\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I24"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Sonstige akute ischämische Herzkrankheit",
+  "code" : "I24",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I24 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I24\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I24\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I25"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Chronische ischämische Herzkrankheit",
+  "code" : "I25",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I25\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I70.0"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Atherosklerose der Aorta",
+  "code" : "I70.0",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.0 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.0\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I70.0\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I73.9"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Periphere Gefäßkrankheit, nicht näher bezeichnet",
+  "code" : "I73.9",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I70.2"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Atherosklerose der Extremitätenarterien",
+  "code" : "I70.2",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.2 (\"undefined\")]\"\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I70.2\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I70.2\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I25.3"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Herz-(Wand-)Aneurysma",
+  "code" : "I25.3",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Validate \"[http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25.3 (\"undefined\")]\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Check \"http://fhir.de/CodeSystem/bfarm/icd-10-gm#I25.3\"\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: CodeSystem found: http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026 for http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: check code in (http://fhir.de/CodeSystem/bfarm/icd-10-gm) at Coding\n1ms http://fhir.de/ValueSet/bfarm/icd-10-gm|2026: Code \"I25.3\" found in http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "code" : "I25.4"
+}, "valueSet" :null, "langs":"de", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "exampleOK":"true", "membershipOnly":"false", "displayWarningMode":"true", "versionFlexible":"true", "externalSource":"ValueSet[http://klinikum.uni-heidelberg.de/ValueSet/chadsva-parameter-v-vs|0.1.0]", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Koronararterienaneurysma",
+  "code" : "I25.4",
+  "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+  "version" : "2026",
+  "severity" : "warning",
+  "error" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version",
+  "server" : "https://localhost/fhir",
+  "issues" : {
+  "resourceType" : "OperationOutcome",
+  "issue" : [{
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id",
+      "valueString" : "CODESYSTEM_VERSION_NEEDED"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/operationoutcome-issue-server",
+      "valueUrl" : "https://localhost/fhir"
+    }],
+    "severity" : "warning",
+    "code" : "business-rule",
+    "details" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type",
+        "code" : "invalid-data"
+      }],
+      "text" : "The code system 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' says that a version must be specified when it is referenced (versionNeeded = true), but this coding has no version"
+    },
+    "expression" : ["Coding.version"]
+  }]
+}
+
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,745 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "48447003"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Chronic heart failure",
+  "code" : "48447003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n3ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#48447003 (\"undefined\")]\"\n4ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#48447003\"\n4ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n4ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n5ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"48447003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "73211009"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus",
+  "code" : "73211009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#73211009 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#73211009\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"73211009\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Hypertensive disorder",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#38341003 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#38341003\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"38341003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "422504002"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Ischemic stroke",
+  "code" : "422504002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#422504002 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#422504002\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"422504002\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "266257000"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Transient cerebral ischemia",
+  "code" : "266257000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#266257000 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#266257000\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"266257000\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "232035005"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Retinal artery occlusion",
+  "code" : "232035005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#232035005 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#232035005\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"232035005\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "88032003"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Amaurosis fugax",
+  "code" : "88032003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#88032003 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#88032003\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"88032003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "286959000"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Peripheral arterial embolism",
+  "code" : "286959000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#286959000 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#286959000\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"286959000\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "53741008"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Coronary arteriosclerosis",
+  "code" : "53741008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#53741008 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#53741008\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"53741008\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "22298006"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Myocardial infarction",
+  "code" : "22298006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#22298006 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#22298006\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"22298006\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1284863004"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Arteriosclerosis of aorta",
+  "code" : "1284863004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#1284863004 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#1284863004\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"1284863004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840580004"
+}, "valueSet" :null, "langs":"en, en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "isDefaultLang":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Peripheral arterial disease",
+  "code" : "840580004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#840580004 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#840580004\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"840580004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "48447003"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Chronic heart failure",
+  "code" : "48447003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#48447003 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#48447003\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"48447003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "73211009"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Diabetes mellitus",
+  "code" : "73211009",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#73211009 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#73211009\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"73211009\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Hypertensive disorder",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#38341003 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#38341003\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"38341003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "422504002"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Ischemic stroke",
+  "code" : "422504002",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#422504002 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#422504002\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"422504002\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "266257000"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Transient cerebral ischemia",
+  "code" : "266257000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#266257000 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#266257000\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"266257000\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "232035005"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Retinal artery occlusion",
+  "code" : "232035005",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#232035005 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#232035005\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"232035005\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "88032003"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Amaurosis fugax",
+  "code" : "88032003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#88032003 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#88032003\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"88032003\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "286959000"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Peripheral arterial embolism",
+  "code" : "286959000",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#286959000 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#286959000\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"286959000\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "53741008"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Coronary arteriosclerosis",
+  "code" : "53741008",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#53741008 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#53741008\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"53741008\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "22298006"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Myocardial infarction",
+  "code" : "22298006",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#22298006 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#22298006\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"22298006\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1284863004"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Arteriosclerosis of aorta",
+  "code" : "1284863004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#1284863004 (\"undefined\")]\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#1284863004\"\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n0ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"1284863004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840580004"
+}, "valueSet" :null, "langs":"", "useServer":"true", "useClient":"true", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "system-version",
+    "valueCanonical" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701"
+  },
+  {
+    "name" : "system-version",
+    "valueCanonical" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm|2026"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "de"
+  }]
+}}####
+v: {
+  "display" : "Peripheral arterial disease",
+  "code" : "840580004",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
+  "server" : "https://localhost/fhir",
+  "diagnostics" : "0ms tx-op\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Validate \"[http://snomed.info/sct#840580004 (\"undefined\")]\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Check \"http://snomed.info/sct#840580004\"\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701 for http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: check code in (http://snomed.info/sct) at Coding\n1ms http://snomed.info/sct/vs|http://snomed.info/sct/900000000000207008/version/20260701: Code \"840580004\" found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------

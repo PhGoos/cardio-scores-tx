@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ValueSet-chadsva-parameter-d-vs" original="Resource ValueSet-chadsva-parameter-d-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>CHADSVAParameterDVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>CHADSVA Parameter D VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **D** (Diabetes: **D**iabetes) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>E10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>E11</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>E13</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>E14</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-d-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>73211009</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

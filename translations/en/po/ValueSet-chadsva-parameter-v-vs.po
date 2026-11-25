@@ -1,0 +1,71 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "CHADSVAParameterVVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "CHADSVA Parameter V VS"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **V** (Vaskuläre Erkrankungen: **V**ascular Disease) im CHA₂DS₂-VA-Score ab."
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I21"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I22"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I24"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I25"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I70.2"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "53741008"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "22298006"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "1284863004"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "840580004"
+msgstr ""
+

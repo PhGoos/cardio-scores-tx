@@ -1,0 +1,11 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Ignore OID related messages
+% have an OID assigned %
+
+# ICD-10 should have a version but we want all versions and * does not work properly
+CODESYSTEM_VERSION_NEEDED

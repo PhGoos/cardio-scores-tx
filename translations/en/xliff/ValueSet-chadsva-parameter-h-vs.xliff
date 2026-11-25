@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="ValueSet-chadsva-parameter-h-vs" original="Resource ValueSet-chadsva-parameter-h-vs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>CHADSVAParameterHVS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>CHADSVA Parameter H VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **H** (Arterielle Hypertonie: **H**ypertension) im CHA₂DS₂-VA-Score ab.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I10</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>I15</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-chadsva-parameter-h-vs" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>38341003</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

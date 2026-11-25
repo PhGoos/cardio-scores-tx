@@ -1,0 +1,41 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "CHADSVAParameterHVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "CHADSVA Parameter H VS"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **H** (Arterielle Hypertonie: **H**ypertension) im CHA₂DS₂-VA-Score ab."
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I10"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I15"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "38341003"
+msgstr ""
+

@@ -1,0 +1,55 @@
+{
+  "id" : "ValueSet-chadsva-parameter-h-vs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "CHADSVAParameterHVS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "CHADSVA Parameter H VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **H** (Arterielle Hypertonie: **H**ypertension) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I10",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I15",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "38341003",
+      "target" : null
+    }]
+  }]
+}

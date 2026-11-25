@@ -1,0 +1,91 @@
+{
+  "id" : "ValueSet-chadsva-parameter-v-vs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "ValueSet.name",
+      "context" : "ValueSet.name",
+      "source" : "CHADSVAParameterVVS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.title",
+      "context" : "ValueSet.title",
+      "source" : "CHADSVA Parameter V VS",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.publisher",
+      "context" : "ValueSet.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.description",
+      "context" : "ValueSet.description",
+      "source" : "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **V** (Vaskuläre Erkrankungen: **V**ascular Disease) im CHA₂DS₂-VA-Score ab.",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I21",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I22",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I24",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I25",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "I70.2",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "53741008",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "22298006",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "1284863004",
+      "target" : null
+    },
+    {
+      "id" : "ValueSet.compose.include.filter.value",
+      "context" : "ValueSet.compose.include.filter.value",
+      "source" : "840580004",
+      "target" : null
+    }]
+  }]
+}

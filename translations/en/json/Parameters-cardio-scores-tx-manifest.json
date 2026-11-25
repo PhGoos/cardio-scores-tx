@@ -1,0 +1,13 @@
+{
+  "id" : "Parameters-cardio-scores-tx-manifest",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "Parameters.parameter.name",
+      "context" : "Parameters.parameter.name",
+      "source" : "system-version",
+      "target" : null
+    }]
+  }]
+}

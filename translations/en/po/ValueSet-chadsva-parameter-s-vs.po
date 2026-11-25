@@ -1,0 +1,61 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "CHADSVAParameterSVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "CHADSVA Parameter S VS"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **S** (Schlaganfall, TIA, oder Thrombembolie: **S**troke) im CHA~2~DS~2~-VA-Score ab."
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "I63"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "G45"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "H34"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "422504002"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "266257000"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "232035005"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "88032003"
+msgstr ""
+

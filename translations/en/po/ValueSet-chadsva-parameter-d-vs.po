@@ -1,0 +1,51 @@
+
+# ValueSet.name
+#: ValueSet.name
+msgid "CHADSVAParameterDVS"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "CHADSVA Parameter D VS"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Dieses Value Set bildet die relevanten SNOMED CT und ICD-10-GM-Codes für den Parameter **D** (Diabetes: **D**iabetes) im CHA₂DS₂-VA-Score ab."
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "E10"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "E11"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "E13"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "E14"
+msgstr ""
+
+# ValueSet.compose.include.filter.value
+#: ValueSet.compose.include.filter.value
+msgid "73211009"
+msgstr ""
+
