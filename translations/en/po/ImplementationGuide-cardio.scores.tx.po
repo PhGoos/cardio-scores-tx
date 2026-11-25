@@ -16,11 +16,6 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
-msgid "cardio-scores-tx-manifest"
-msgstr ""
-
-# ImplementationGuide.definition.resource.name
-#: ImplementationGuide.definition.resource.name
 msgid "CHADSVA Parameter C VS"
 msgstr ""
 
@@ -77,6 +72,16 @@ msgstr ""
 # ImplementationGuide.definition.resource.description
 #: ImplementationGuide.definition.resource.description
 msgid "Referenziert eine Resource, die als Eingabe oder unterstützende Evidenz verwendet wurde, um den Wert einer Observation.component zu bestimmen."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "expansion"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Expansion parameters"
 msgstr ""
 
 # ImplementationGuide.definition.page.title

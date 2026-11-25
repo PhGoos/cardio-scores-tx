@@ -28,13 +28,6 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
-        <source>cardio-scores-tx-manifest</source>
-        <target></target>
-      </trans-unit>
-      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
-             <notes>
-               <note id="n1">ImplementationGuide.definition.resource.name</note>
-             </notes>
         <source>CHADSVA Parameter C VS</source>
         <target></target>
       </trans-unit>
@@ -113,6 +106,20 @@
                <note id="n1">ImplementationGuide.definition.resource.description</note>
              </notes>
         <source>Referenziert eine Resource, die als Eingabe oder unterstützende Evidenz verwendet wurde, um den Wert einer Observation.component zu bestimmen.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>expansion</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Expansion parameters</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.page.title">

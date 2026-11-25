@@ -70,7 +70,7 @@ parameters:
     - en
   translation-sources:
     - input/translations/en
-  path-expansion-params: ../../input/resources/Parameters-cardio-scores-tx-manifest.json
+  path-expansion-params: Parameters-expansion.json
 #   excludettl: true
 #   validation: [allow-any-extensions, no-broken-links]
 #
@@ -174,7 +174,7 @@ menu:
 # * date
 # * meta
 # * implicitRules
-# * language
+language: de
 # * text
 # * contained
 # * extension
