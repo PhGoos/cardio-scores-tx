@@ -1,0 +1,97 @@
+{
+  "id" : "CodeSystem-score-component-evidence-cs",
+  "baseLang" : "de",
+  "languages" : [{
+    "targetLang" : "en",
+    "entries" : [{
+      "id" : "CodeSystem.name",
+      "context" : "CodeSystem.name",
+      "source" : "ScoreComponentEvidenceCS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.title",
+      "context" : "CodeSystem.title",
+      "source" : "Score Component Evidence CS",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.publisher",
+      "context" : "CodeSystem.publisher",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "ContactDetail.name",
+      "context" : "ContactDetail.name",
+      "source" : "Institut für Medizinische Informatik",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.description",
+      "context" : "CodeSystem.description",
+      "source" : "Klassifiziert die Evidenzlage für die Bewertung eines Score-Kriteriums zum jeweiligen Stichtag.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Belastbar",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Die verwertbaren Quellen stützen eine Entscheidung für Ja oder Nein. Es liegt kein ungeklärter Gegenbefund vor.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Vorläufig",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Es liegen einschlägige Hinweise vor, die für eine belastbare Entscheidung noch nicht ausreichen.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Nicht dokumentiert",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "In den ausgewerteten Daten wurde zum Stichtag keine einschlägige Aussage gefunden.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Explizit unbekannt",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Eine einschlägige Quelle dokumentiert ausdrücklich, dass das Vorliegen des Kriteriums unbekannt ist. Weitere verwertbare Quellen erlauben keine Entscheidung.",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.display",
+      "context" : "CodeSystem.concept.display",
+      "source" : "Widersprüchlich",
+      "target" : null
+    },
+    {
+      "id" : "CodeSystem.concept.definition",
+      "context" : "CodeSystem.concept.definition",
+      "source" : "Verwertbare Quellen geben für denselben Patienten, dasselbe Kriterium und denselben relevanten Zeitraum gegensätzliche Antworten. Der Widerspruch ist ungeklärt.",
+      "target" : null
+    }]
+  }]
+}

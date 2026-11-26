@@ -122,6 +122,48 @@
         <source>Expansion parameters</source>
         <target></target>
       </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Score Component Evidence CS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Klassifiziert die Evidenzlage für die Bewertung eines Score-Kriteriums zum jeweiligen Stichtag.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Score Component Evidence Extension</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Mit dieser Extension kann die Evidenz, also die Sicherheit, mit der ein bestimmter Wert für eine Observation.component bestimmt wurde, angegeben werden.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.name">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.name</note>
+             </notes>
+        <source>Score Component Evidence VS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.resource.description">
+             <notes>
+               <note id="n1">ImplementationGuide.definition.resource.description</note>
+             </notes>
+        <source>Alle Codes aus ScoreComponentEvidenceCS.</source>
+        <target></target>
+      </trans-unit>
       <trans-unit id="ImplementationGuide-cardio.scores.tx" resname="ImplementationGuide.definition.page.title">
              <notes>
                <note id="n1">ImplementationGuide.definition.page.title</note>

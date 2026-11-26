@@ -84,6 +84,36 @@ msgstr ""
 msgid "Expansion parameters"
 msgstr ""
 
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Score Component Evidence CS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Klassifiziert die Evidenzlage für die Bewertung eines Score-Kriteriums zum jeweiligen Stichtag."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Score Component Evidence Extension"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Mit dieser Extension kann die Evidenz, also die Sicherheit, mit der ein bestimmter Wert für eine Observation.component bestimmt wurde, angegeben werden."
+msgstr ""
+
+# ImplementationGuide.definition.resource.name
+#: ImplementationGuide.definition.resource.name
+msgid "Score Component Evidence VS"
+msgstr ""
+
+# ImplementationGuide.definition.resource.description
+#: ImplementationGuide.definition.resource.description
+msgid "Alle Codes aus ScoreComponentEvidenceCS."
+msgstr ""
+
 # ImplementationGuide.definition.page.title
 #: ImplementationGuide.definition.page.title
 msgid "Table of Contents"

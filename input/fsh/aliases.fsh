@@ -1,3 +1,5 @@
+Alias: $version                           = 0.1.0
+
 // CodeSystems
 Alias: $loinc                             = http://loinc.org
 Alias: $sct                               = http://snomed.info/sct
@@ -27,6 +29,7 @@ Alias: $v3-ActCode-with-version           = http://terminology.hl7.org/CodeSyste
 Alias: $referencerange-meaning-with-version = http://terminology.hl7.org/CodeSystem/referencerange-meaning|1.0.1
 Alias: $ath-ereignis-with-version         = MII_CS_Kardio_Atherosklerotisches_Ereignis|2027.0.0-ballot
 Alias: $mrs-with-version                  = MII_CS_Kardio_Modifizierte_Rankin_Skala|2027.0.0-ballot
+Alias: $score-component-evidence-cs       = ScoreComponentEvidenceCS|0.1.0
 
 // ValueSets ("-vs"-Suffix)
 Alias: $icd10-gm-vs                       = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/mii-vs-diagnose-icd10gm

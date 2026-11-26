@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="de" target-language="en" id="CodeSystem-score-component-evidence-cs" original="Resource CodeSystem-score-component-evidence-cs" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.name">
+             <notes>
+               <note id="n1">CodeSystem.name</note>
+             </notes>
+        <source>ScoreComponentEvidenceCS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.title">
+             <notes>
+               <note id="n1">CodeSystem.title</note>
+             </notes>
+        <source>Score Component Evidence CS</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.publisher">
+             <notes>
+               <note id="n1">CodeSystem.publisher</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Institut für Medizinische Informatik</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.description">
+             <notes>
+               <note id="n1">CodeSystem.description</note>
+             </notes>
+        <source>Klassifiziert die Evidenzlage für die Bewertung eines Score-Kriteriums zum jeweiligen Stichtag.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Belastbar</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Die verwertbaren Quellen stützen eine Entscheidung für Ja oder Nein. Es liegt kein ungeklärter Gegenbefund vor.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Vorläufig</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Es liegen einschlägige Hinweise vor, die für eine belastbare Entscheidung noch nicht ausreichen.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Nicht dokumentiert</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>In den ausgewerteten Daten wurde zum Stichtag keine einschlägige Aussage gefunden.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Explizit unbekannt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Eine einschlägige Quelle dokumentiert ausdrücklich, dass das Vorliegen des Kriteriums unbekannt ist. Weitere verwertbare Quellen erlauben keine Entscheidung.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.display">
+             <notes>
+               <note id="n1">CodeSystem.concept.display</note>
+             </notes>
+        <source>Widersprüchlich</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="CodeSystem-score-component-evidence-cs" resname="CodeSystem.concept.definition">
+             <notes>
+               <note id="n1">CodeSystem.concept.definition</note>
+             </notes>
+        <source>Verwertbare Quellen geben für denselben Patienten, dasselbe Kriterium und denselben relevanten Zeitraum gegensätzliche Antworten. Der Widerspruch ist ungeklärt.</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

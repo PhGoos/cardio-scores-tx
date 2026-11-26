@@ -1,0 +1,76 @@
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "ScoreComponentEvidenceCS"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "Score Component Evidence CS"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Institut für Medizinische Informatik"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Klassifiziert die Evidenzlage für die Bewertung eines Score-Kriteriums zum jeweiligen Stichtag."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Belastbar"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Die verwertbaren Quellen stützen eine Entscheidung für Ja oder Nein. Es liegt kein ungeklärter Gegenbefund vor."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Vorläufig"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Es liegen einschlägige Hinweise vor, die für eine belastbare Entscheidung noch nicht ausreichen."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Nicht dokumentiert"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "In den ausgewerteten Daten wurde zum Stichtag keine einschlägige Aussage gefunden."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Explizit unbekannt"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Eine einschlägige Quelle dokumentiert ausdrücklich, dass das Vorliegen des Kriteriums unbekannt ist. Weitere verwertbare Quellen erlauben keine Entscheidung."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Widersprüchlich"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Verwertbare Quellen geben für denselben Patienten, dasselbe Kriterium und denselben relevanten Zeitraum gegensätzliche Antworten. Der Widerspruch ist ungeklärt."
+msgstr ""
+
